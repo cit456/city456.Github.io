@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>unidades de medida</title>
+    <link rel="stylesheet" href="problemas.css">
+</head>
+<body>
+    <center>
+    <header class="mtrs">
+        <h1>Unidades de medida</h1>
+        <br>
+        <h1>Conversor de Metros a Centímetros</h1>
+        <p>Introduce la longitud en metros:</p>
+        <input type="number" id="metrosInput" oninput="document.getElementById('resultado').innerHTML = this.value * 100 + ' cm'">
+        <p>El resultado en centímetros es:</p>
+        <p id="resultado"></p>
+        <br><br>
+        <h1>Conversor de kilometros a metros</h1>
+        <p>Introduce la longitud en kilometros:</p>
+        <input type="number" id="metrosInput" oninput="document.getElementById('resultado2').innerHTML = this.value * 1000 + ' mts'">
+        <p>El resultado en metros es:</p>
+        <p id="resultado2"></p>
+        <br><br>
+        <h1>Conversor de Litros a gramos</h1>
+        <p>Introduce la cantidad en Litros:</p>
+        <input type="number" id="metrosInput" oninput="document.getElementById('resultado3').innerHTML = this.value * 1000 + ' gms'">
+        <p>El resultado en gramos es:</p>
+        <p id="resultado3"></p>
+        <br><br>
+        <h1>Conversor de Libras a kilos</h1>
+        <p>Introduce la cantidad en libras:</p>
+        <input type="number" id="metrosInput" oninput="document.getElementById('resultado4').innerHTML = this.value / 2.205 + ' kg'">
+        <p>El resultado en kilos es:</p>
+        <p id="resultado4"></p>
+        <br><br>
+        <h1>Conversor de pies a metros</h1>
+        <p>Introduce la longitud en pies:</p>
+        <input type="number" id="metrosInput" oninput="document.getElementById('resultado5').innerHTML = this.value / 3.281 + ' mts'">
+        <p>El resultado en metros es:</p>
+        <p id="resultado5"></p>
+        <br>
+    <a class="btna" href="problemas.html">Regresar</a>
+        
+    </header>
+    </center>
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conte{
+    border: solid palevioletred;
+    width: 90%;
+    height: 600px;
+}
+.operaciones{
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    border: 1px solid white;
+    background-color: pink;
+}
+img{
+    width: 350px;
+    height: 350px;
+}

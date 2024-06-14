@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+}
+img{
+    width: 80%;
+    height: 600px;
+}
+.parra{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 90%;
+}
+.imagen_dinamica {
+    transition: transform 0.5s ease;
+     width: 100px; 
+    height: 200px; 
+    border-radius: 20PX;
+  }
+  
+  .imagen_dinamica:hover {
+    transform: scale(1.5); 
+  }

@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.caja1{
+    width: 100%;
+    height: 500px;
+    border: 1px solid ;
+    background-image: linear-gradient( rgba(150, 108, 247, 0.281), rgba(0, 47, 255, 0.527)),url(IMAGENES/imagen1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+   
+}
+.texto1{
+    text-align: center;
+    margin-top: 190px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto2{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.opciones{
+   margin-left: 80%;
+   top: 20px;
+   position: absolute;
+   justify-content: space-between;
+  display: inline-block;
+  text-decoration: none;
+
+}
+.onda{
+    margin-top: 89px;
+}
+.botones{
+    width: 10px;
+    text-decoration: none;
+    border: 2px solid blue;
+    margin-left: 3px;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+}
+.IMAGENES2{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.mibanner{
+    width: 700px;
+    height: 300px;
+    border: 3px solid rgba(54, 6, 226, 0.884);
+    margin: auto;
+    background-size: 100% 100%;
+    animation: sofia 10s infinite;
+    animation-direction: alternate;
+
+}
+@keyframes  sofia{
+    0%, 20%{
+     background-image: url(IMAGENES/galeria2.jpeg);
+     opacity: 1;
+    }
+    21%, 22%{
+         opacity: 0.1;
+    }
+    22%, 35%{
+     background-image: url(IMAGENES/galeria3.jpg);
+     opacity: 1;
+ 
+    }
+    36%, 37%{
+     opacity:0.1 ;
+    }
+    38%, 50%{
+     background-image: url(IMAGENES/galeria4.jpg);
+     opacity: 1;
+ 
+    }
+    51%, 75%{
+     opacity: 0.1;
+ 
+    }
+    76%, 85%{
+     background-image: url(IMAGENES/galeria5.jpg);
+     opacity: 1;
+ 
+    }
+    86%, 87%{
+        opacity: 0.1;
+
+    }
+    88%, 100%{
+        background-image: url(IMAGENES/galeria6.jpg);
+        opacity: 1;
+    }
+}
+.imagen{
+    width: 100px;
+    height: 90px;
+    text-align: center;
+}
+.corazon{
+    width:100%;
+    height: 1000px;
+    background-color: rgb(252, 251, 253);
+
+   
+}
+.slider{ 
+    margin-top: 20px;
+    width: 600px;
+    height:400px;
+    margin: 50px auto 0;
+    overflow: hidden;
+   
+   
+    
+
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 80s infinite alternate ease-in-out;
+
+}
+.slider li{
+    list-style: none;
+    width: 100%;
+
+}
+.slider img{
+    width: 600px;
+    height: 400px;
+    
+}
+@keyframes slide{
+    0%{margin-left: 0%;} 
+   5%{margin-left:-300%;}
+   10%{margin-left: -600%;}
+   15%{margin-left: -1100%;}
+   20%{margin-left: -1600%;}
+   25%{margin-left: -2100%;}
+   30%{margin-left: -2600%;}
+   35%{margin-left: -3100%;}
+   40%{margin-left: -3600%;}
+   45%{margin-left: -4100%;}
+   50%{margin-left: -4600%;}
+   55%{margin-left: -5100%;}
+   60%{margin-left: -5600%;}
+   65%{margin-left: -6100%;}
+   70%{margin-left: -6600%;}
+   75%{margin-left: -7100%;}
+   80%{margin-left: -7600%;}
+   85%{margin-left: -8100%;}
+   90%{margin-left: -8600%;}
+   90%{margin-left: -9100%;}
+   95%{margin-left: -9600%;}
+ 
+
+
+}
+.animaciones{
+    background-color: rgb(242, 245, 244);
+    text-align: center;
+    
+}
+.imagen_dinamica {
+    margin-bottom: 15px;
+    transition: transform 0.5s ease;
+     width: 150px; 
+    height: 200px; 
+    border-radius: 20PX;
+  }
+  
+  .imagen_dinamica:hover {
+    transform: scale(1.5); 
+  }
+ 
+  .tiktok{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: block;
+    display: inline-block;
+    margin-top: 100px;
+
+}
+.facebook{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: block;
+    display: inline-block;
+}
+.instagram{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: block;
+    display: inline-block;
+}
+.whats{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+    border-radius: 100px;
+    display: block;
+    display: inline-block;
+}
+.redes{
+    margin-top: 100px;
+    margin-left: -700px;
+    justify-content: space-evenly ;
+    display: flex;
+    text-align: center;
+}
+.contenedor{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(85, 83, 238);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    
+}
+.contenedor a{
+    font-size: 100px;
+}
+.contenedor a:hover{
+    color: rgb(68, 0, 255);
+    transform: scale(1.2);
+}
+.tiktok1{
+
+    color: black; 
+    margin-left: 650px;
+    
+}
+.instagram1{
+
+    color: rgb(248, 13, 189);  
+    margin: 10px;
+}
+.facebook{
+
+    color: rgb(18, 48, 218);
+    margin-left: 10px;
+    
+}
+.whats1{
+    color: green;
+}

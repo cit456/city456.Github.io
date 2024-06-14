@@ -1,0 +1,18 @@
+body {
+    background-color: bisque;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imagen_dinamica {
+    transition: transform 0.5s ease;
+     width: 100px; 
+    height: 200px; 
+    border-radius: 20PX;
+  }
+  
+  .imagen_dinamica:hover {
+    transform: scale(1.5); 
+  }
